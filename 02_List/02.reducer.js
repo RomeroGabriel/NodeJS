@@ -11,7 +11,7 @@ async function main() {
 
         const total = pesos.reduce((anterior, proximo) => {
             return anterior + proximo;
-        });
+        }, 0);
 
         console.log('Pesos: ', pesos);
         console.log('Total: ', total);
